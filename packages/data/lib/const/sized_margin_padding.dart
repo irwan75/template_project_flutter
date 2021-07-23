@@ -1,0 +1,3 @@
+class SizedMargin {
+  SizedMargin._();
+}
