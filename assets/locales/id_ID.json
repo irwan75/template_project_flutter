@@ -1,0 +1,11 @@
+{
+    "button":{
+        "login": "Login",
+        "sign_in": "Sing in",
+        "logout": "Logout"
+    },
+    "title":{
+        "title_home": "Title Home",
+        "title_not_home": "Title Not Home"
+    }
+}
