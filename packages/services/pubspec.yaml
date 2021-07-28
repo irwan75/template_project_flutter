@@ -2,19 +2,22 @@ name: services
 version: 1.0.0+1
 publish_to: none
 description: Service Packages.
-environment: 
-  sdk: '>=2.12.0 <3.0.0'
+environment:
+  sdk: ">=2.12.0 <3.0.0"
 
-dependencies: 
+dependencies:
+  data:
+    path: ../data
+
+  flutter:
+    sdk: flutter
   cupertino_icons: ^1.0.2
   get: 4.2.4
-  flutter: 
+  http: ^0.13.3
+
+dev_dependencies:
+  flutter_test:
     sdk: flutter
 
-dev_dependencies: 
-  flutter_test: 
-    sdk: flutter
-
-flutter: 
+flutter:
   uses-material-design: true
-
