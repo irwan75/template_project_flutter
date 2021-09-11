@@ -1,7 +1,7 @@
 import 'package:get/get.dart';
 
 class HomeController extends GetxController {
-
+  String name = "";
   final count = 0.obs;
   @override
   void onInit() {
