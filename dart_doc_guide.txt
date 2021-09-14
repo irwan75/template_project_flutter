@@ -1,0 +1,14 @@
+For make description above your function when your call them function use dart doc ('///')
+example :
+
+/// This is function to calculate date util
+String getTimeFormat(String dateTime, String DateTimeFormatFrom, String DateTimeFormatTo){
+
+}
+
+For make description and image preview above your function or variabel
+/// ![description](your_image_link)
+
+
+For make preview icon above your function or variabel
+/// <i class="material-icons-round md-36">ac_unit</i> &#x2014; material icon named "ac unit rounded".
