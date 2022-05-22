@@ -1,9 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:services/internal_services/logger_serv.dart';
-import 'package:services/utils/validator.dart';
 
 void main() {
-
   final validator = Validator();
 
   test("This color white", () {
