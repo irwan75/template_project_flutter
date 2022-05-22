@@ -1,0 +1,110 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "template-dev",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "-t",
+                "lib/main_dev.dart",
+                "--flavor",
+                "dev"
+            ]
+        },
+        {
+            "name": "template-dev (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile",
+            "args": [
+                "-t",
+                "lib/main_dev.dart",
+                "--flavor",
+                "dev"
+            ]
+        },
+        {
+            "name": "template-stg",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "-t",
+                "lib/main_stg.dart",
+                "--flavor",
+                "staging"
+            ]
+        },
+        {
+            "name": "template-stg (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile",
+            "args": [
+                "-t",
+                "lib/main_stg.dart",
+                "--flavor",
+                "staging"
+            ]
+        },
+        {
+            "name": "template-prod",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "-t",
+                "lib/main_prod.dart",
+                "--flavor",
+                "prod"
+            ]
+        },
+        {
+            "name": "template-prod (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile",
+            "args": [
+                "-t",
+                "lib/main_prod.dart",
+                "--flavor",
+                "prod"
+            ]
+        },
+        {
+            "name": "template-dev (Android)",
+            "request": "launch",
+            "type": "dart",
+            "deviceId": "",
+            "args": [
+                "-t",
+                "lib/main_dev.dart",
+                "--flavor",
+                "dev"
+            ]
+        },
+        {
+            "name": "template-dev (iOS)",
+            "request": "launch",
+            "type": "dart",
+            "deviceId": "",
+            "args": [
+                "-t",
+                "lib/main_dev.dart",
+                "--flavor",
+                "dev"
+            ]
+        }   
+    ],
+    "compounds": [
+        {
+            "name": "All Device Platform",
+            "configurations": [
+                "template-dev (Android)",
+                "template-dev (iOS)"
+            ]
+        }
+    ]
+}

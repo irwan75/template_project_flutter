@@ -1,3 +1,0 @@
-class SizedMargin {
-  SizedMargin._();
-}

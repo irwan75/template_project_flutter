@@ -1,0 +1,26 @@
+name: services
+version: 1.0.0+1
+publish_to: none
+description: Service Packages.
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  data:
+    path: ../data
+
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  get: 4.2.4
+  http: ^0.13.3
+  intl: ^0.17.0
+  connectivity: ^3.0.6
+  image_picker: ^0.8.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
