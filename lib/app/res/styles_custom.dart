@@ -1,11 +1,6 @@
-import 'package:data/const/sized_font.dart';
-import 'package:data/const/sized_font_weight.dart';
-import 'package:data/const/sized_heading_text.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_project_template/app/res/path_fonts.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:data/const/sized_letter_spacing.dart';
-import 'package:data/const/sized_blur_spread_radius.dart';
 
 import 'colors_custom.dart';
 
